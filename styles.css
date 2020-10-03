@@ -13,7 +13,8 @@ body {
     align-items: center;
 }
 
-h1 {
+h1,
+h2 {
     color: tomato;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
