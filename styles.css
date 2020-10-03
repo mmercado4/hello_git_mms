@@ -11,14 +11,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-h1,
-h2 {
+h1 {
     color: tomato;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     animation: animate 3s infinite linear;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 100%;
 }
 
 @keyframes animate {
